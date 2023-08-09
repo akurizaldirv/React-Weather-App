@@ -43,7 +43,7 @@ const WeatherInfo = ({data, cityName, forecast}) => {
         </Col>
       </Row> : null }
       {data.main ? <div className='second-info'>
-        <Row className="row-cols-lg-3 row-cols-md-auto row-cols-sm-auto">
+        <Row className="row-cols-lg-3 row-cols-md-3 row-cols-sm-3 row-cols-xs-2 ">
           <Col className='text-center'>
             <h4><strong>{Math.round(data.main.feels_like)} °C</strong></h4>
             <p>Feels Like</p>
